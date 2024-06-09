@@ -8,6 +8,7 @@ import 'package:flutter_application_1/1)%20gettingStarted/removeElement.dart';
 import 'package:flutter_application_1/1)%20gettingStarted/starting.dart';
 import 'package:flutter_application_1/2)%20stateChallenges/backgroundChallenge.dart';
 import 'package:flutter_application_1/2)%20stateChallenges/counterChallenge.dart';
+import 'package:flutter_application_1/2)%20stateChallenges/favoriteChallenge.dart';
 import 'package:flutter_application_1/2)%20stateChallenges/formValidation.dart';
 import 'package:flutter_application_1/2)%20stateChallenges/todoList.dart';
 import 'package:flutter_application_1/2)%20stateChallenges/toggleChallenge.dart';
@@ -23,7 +24,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       title: 'Starting app',
-      home: FormValidateScaffold(),
+      home: FavoriteChallengeScaffold(),
     );
   }
 }
