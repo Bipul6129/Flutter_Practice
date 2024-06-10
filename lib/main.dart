@@ -10,8 +10,13 @@ import 'package:flutter_application_1/2)%20stateChallenges/backgroundChallenge.d
 import 'package:flutter_application_1/2)%20stateChallenges/counterChallenge.dart';
 import 'package:flutter_application_1/2)%20stateChallenges/favoriteChallenge.dart';
 import 'package:flutter_application_1/2)%20stateChallenges/formValidation.dart';
+import 'package:flutter_application_1/2)%20stateChallenges/toDoSelectChallenge.dart';
 import 'package:flutter_application_1/2)%20stateChallenges/todoList.dart';
 import 'package:flutter_application_1/2)%20stateChallenges/toggleChallenge.dart';
+import 'package:flutter_application_1/3)%20Layouts/ImageTrial.dart';
+import 'package:flutter_application_1/3)%20Layouts/LayoutTest.dart';
+import 'package:flutter_application_1/3)%20Layouts/ListVListT.dart';
+import 'package:flutter_application_1/3)%20Layouts/StackTrial.dart';
 
 void main() {
   runApp(const MyApp());
@@ -24,7 +29,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       title: 'Starting app',
-      home: FavoriteChallengeScaffold(),
+      home: LayouttestScaffold(),
     );
   }
 }
