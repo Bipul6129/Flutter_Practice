@@ -1,22 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
-import 'package:flutter_application_1/1)%20gettingStarted/callbackIncrement.dart';
-import 'package:flutter_application_1/1)%20gettingStarted/gestureHandle.dart';
-import 'package:flutter_application_1/1)%20gettingStarted/incrementer.dart';
-import 'package:flutter_application_1/1)%20gettingStarted/productAddRemove.dart';
-import 'package:flutter_application_1/1)%20gettingStarted/removeElement.dart';
-import 'package:flutter_application_1/1)%20gettingStarted/starting.dart';
-import 'package:flutter_application_1/2)%20stateChallenges/backgroundChallenge.dart';
-import 'package:flutter_application_1/2)%20stateChallenges/counterChallenge.dart';
-import 'package:flutter_application_1/2)%20stateChallenges/favoriteChallenge.dart';
-import 'package:flutter_application_1/2)%20stateChallenges/formValidation.dart';
-import 'package:flutter_application_1/2)%20stateChallenges/toDoSelectChallenge.dart';
-import 'package:flutter_application_1/2)%20stateChallenges/todoList.dart';
-import 'package:flutter_application_1/2)%20stateChallenges/toggleChallenge.dart';
-import 'package:flutter_application_1/3)%20Layouts/ImageTrial.dart';
-import 'package:flutter_application_1/3)%20Layouts/LayoutTest.dart';
-import 'package:flutter_application_1/3)%20Layouts/ListVListT.dart';
-import 'package:flutter_application_1/3)%20Layouts/StackTrial.dart';
+import 'package:flutter_application_1/4)%20SilverScrolls/ScrollAvatar.dart';
+import 'package:flutter_application_1/5)%20layoutChallenges/responsiveDisplay.dart';
 
 void main() {
   runApp(const MyApp());
@@ -29,7 +14,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       title: 'Starting app',
-      home: LayouttestScaffold(),
+      home: ResponsivedisplayScaffold(),
     );
   }
 }
