@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 import 'package:flutter_application_1/4)%20SilverScrolls/ScrollAvatar.dart';
+import 'package:flutter_application_1/5)%20layoutChallenges/SilverCard.dart';
+import 'package:flutter_application_1/5)%20layoutChallenges/SilverListAndGrid.dart';
 import 'package:flutter_application_1/5)%20layoutChallenges/responsiveDisplay.dart';
 
 void main() {
@@ -14,7 +16,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       title: 'Starting app',
-      home: ResponsivedisplayScaffold(),
+      home: SilverCartMain(),
     );
   }
 }
