@@ -4,6 +4,11 @@ import 'package:flutter_application_1/4)%20SilverScrolls/ScrollAvatar.dart';
 import 'package:flutter_application_1/5)%20layoutChallenges/SilverCard.dart';
 import 'package:flutter_application_1/5)%20layoutChallenges/SilverListAndGrid.dart';
 import 'package:flutter_application_1/5)%20layoutChallenges/responsiveDisplay.dart';
+import 'package:flutter_application_1/7)%20Interactivity/DismissPrac.dart';
+import 'package:flutter_application_1/7)%20Interactivity/DraggableLong.dart';
+import 'package:flutter_application_1/7)%20Interactivity/InkwellWork.dart';
+import 'package:flutter_application_1/8)%20InteractivityChallenges/AddNumber.dart';
+import 'package:flutter_application_1/8)%20InteractivityChallenges/KanbanBoard.dart';
 
 void main() {
   runApp(const MyApp());
@@ -16,7 +21,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       title: 'Starting app',
-      home: SilverCartMain(),
+      home: KanbanBoard(),
     );
   }
 }
